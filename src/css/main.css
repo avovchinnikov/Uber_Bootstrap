@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    position: relative;
+}
+nav{
+    min-height: 50px;
+    background-color: #212121;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    min-height:84px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader_text{
+    margin-top: 2px;
+    opacity:0.5;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 200;
+    
+}
+
+.subheader  .subheader_call{
+    display: block;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #fff;
+    text-align: right;
+    
+}
+
+.subheader  .subheader_call .subheader_phone{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.subheader  .subheader_btn{
+    width: 172px;
+    height: 46px;
+    margin-top: 16px;
+    background: linear-gradient(to top, #21b0cb, #4be1fe);
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.18);
+    border: none;
+    border-bottom: 3px inset #217d98;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.promo{
+    height: 757px;
+    background-image: url(../img/main_bg.png);
+    text-align: center;
+    padding: 128px 0 0 0;
+}
+
+.promo h1{
+    margin: 0;
+    font-size: 60px;
+    color: #fff;
+}
+
+.promo h2{
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.promo p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.promo .promo_btn{
+    width: 259px;
+    height: 63px;
+    margin-top: 120px;
+    background: linear-gradient(to top, #21b0cb, #4be1fe);
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.18);
+    border: none;
+    border-bottom: 3px inset #217d98;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;   
+}
